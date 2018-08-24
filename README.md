@@ -1,5 +1,6 @@
 # FizzBuzz
 The initial version of Task is not contain information that this Task should implement multi-thread version of algorithm that is why it is possible to write something like this:
+```
 public fuzzbuzz() {
   for (int i = 0; i < 100; i++) {
     if ((i % 3 == 0) && (i % 5 == 0)) {
@@ -16,6 +17,7 @@ public fuzzbuzz() {
     }
   }
 }
+```
 
 But I know this Task and that is why implement multi-thread version.
 =============================
